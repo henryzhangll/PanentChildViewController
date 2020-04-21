@@ -1,2 +1,2 @@
 # PanentChildViewController
-多Scrollview 嵌套滑动事件解决
+UICollectionView 嵌套多个控制器 滑动事件冲突解决
