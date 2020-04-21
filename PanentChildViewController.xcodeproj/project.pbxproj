@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185706FB244EE03B001494A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185706FA244EE03B001494A6 /* AppDelegate.m */; };
+		185706FE244EE03B001494A6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185706FD244EE03B001494A6 /* SceneDelegate.m */; };
+		18570701244EE03B001494A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570700244EE03B001494A6 /* ViewController.m */; };
+		18570704244EE03B001494A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18570702244EE03B001494A6 /* Main.storyboard */; };
+		18570706244EE03D001494A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18570705244EE03D001494A6 /* Assets.xcassets */; };
+		18570709244EE03D001494A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18570707244EE03D001494A6 /* LaunchScreen.storyboard */; };
+		1857070C244EE03D001494A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857070B244EE03D001494A6 /* main.m */; };
+		18570786244EE0C2001494A6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857076D244EE0C2001494A6 /* HomeViewController.m */; };
+		18570787244EE0C2001494A6 /* HomeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1857076E244EE0C2001494A6 /* HomeListViewController.xib */; };
+		18570788244EE0C2001494A6 /* HomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857076F244EE0C2001494A6 /* HomeListViewController.m */; };
+		18570789244EE0C2001494A6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18570770244EE0C2001494A6 /* HomeViewController.xib */; };
+		1857078A244EE0C2001494A6 /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570772244EE0C2001494A6 /* SegmentViewController.m */; };
+		1857078B244EE0C2001494A6 /* homeBannerReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570774244EE0C2001494A6 /* homeBannerReusableView.m */; };
+		1857078C244EE0C2001494A6 /* HomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570775244EE0C2001494A6 /* HomeListCell.m */; };
+		1857078D244EE0C2001494A6 /* homeMenueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18570779244EE0C2001494A6 /* homeMenueCell.xib */; };
+		1857078E244EE0C2001494A6 /* HomeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1857077A244EE0C2001494A6 /* HomeListCell.xib */; };
+		1857078F244EE0C2001494A6 /* homeReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1857077B244EE0C2001494A6 /* homeReusableView.xib */; };
+		18570790244EE0C2001494A6 /* homeMenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857077D244EE0C2001494A6 /* homeMenueCell.m */; };
+		18570791244EE0C2001494A6 /* homeBannerReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1857077E244EE0C2001494A6 /* homeBannerReusableView.xib */; };
+		18570792244EE0C2001494A6 /* homeReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570780244EE0C2001494A6 /* homeReusableView.m */; };
+		18570793244EE0C2001494A6 /* CenterTouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570781244EE0C2001494A6 /* CenterTouchTableView.m */; };
+		18570794244EE0C2001494A6 /* SegmentParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570785244EE0C2001494A6 /* SegmentParentViewController.m */; };
+		185707A4244EE28D001494A6 /* UIView+SGPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18570798244EE28D001494A6 /* UIView+SGPagingView.m */; };
+		185707A5244EE28D001494A6 /* SGPageContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857079A244EE28D001494A6 /* SGPageContentScrollView.m */; };
+		185707A6244EE28D001494A6 /* SGPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857079B244EE28D001494A6 /* SGPageContentView.m */; };
+		185707A7244EE28D001494A6 /* SGPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857079F244EE28D001494A6 /* SGPageTitleView.m */; };
+		185707A8244EE28D001494A6 /* SGPageTitleViewConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 185707A0244EE28D001494A6 /* SGPageTitleViewConfigure.m */; };
+		185707AB244EE321001494A6 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 185707AA244EE321001494A6 /* Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185706F6244EE03B001494A6 /* PanentChildViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanentChildViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185706F9244EE03B001494A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185706FA244EE03B001494A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185706FC244EE03B001494A6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		185706FD244EE03B001494A6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		185706FF244EE03B001494A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18570700244EE03B001494A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18570703244EE03B001494A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18570705244EE03D001494A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18570708244EE03D001494A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1857070A244EE03D001494A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1857070B244EE03D001494A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1857076D244EE0C2001494A6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1857076E244EE0C2001494A6 /* HomeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeListViewController.xib; sourceTree = "<group>"; };
+		1857076F244EE0C2001494A6 /* HomeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListViewController.m; sourceTree = "<group>"; };
+		18570770244EE0C2001494A6 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		18570771244EE0C2001494A6 /* SegmentParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentParentViewController.h; sourceTree = "<group>"; };
+		18570772244EE0C2001494A6 /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
+		18570774244EE0C2001494A6 /* homeBannerReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeBannerReusableView.m; sourceTree = "<group>"; };
+		18570775244EE0C2001494A6 /* HomeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListCell.m; sourceTree = "<group>"; };
+		18570776244EE0C2001494A6 /* homeMenueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeMenueCell.h; sourceTree = "<group>"; };
+		18570777244EE0C2001494A6 /* CenterTouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterTouchTableView.h; sourceTree = "<group>"; };
+		18570778244EE0C2001494A6 /* homeReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeReusableView.h; sourceTree = "<group>"; };
+		18570779244EE0C2001494A6 /* homeMenueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeMenueCell.xib; sourceTree = "<group>"; };
+		1857077A244EE0C2001494A6 /* HomeListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeListCell.xib; sourceTree = "<group>"; };
+		1857077B244EE0C2001494A6 /* homeReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeReusableView.xib; sourceTree = "<group>"; };
+		1857077C244EE0C2001494A6 /* homeBannerReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeBannerReusableView.h; sourceTree = "<group>"; };
+		1857077D244EE0C2001494A6 /* homeMenueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeMenueCell.m; sourceTree = "<group>"; };
+		1857077E244EE0C2001494A6 /* homeBannerReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeBannerReusableView.xib; sourceTree = "<group>"; };
+		1857077F244EE0C2001494A6 /* HomeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListCell.h; sourceTree = "<group>"; };
+		18570780244EE0C2001494A6 /* homeReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeReusableView.m; sourceTree = "<group>"; };
+		18570781244EE0C2001494A6 /* CenterTouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterTouchTableView.m; sourceTree = "<group>"; };
+		18570782244EE0C2001494A6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18570783244EE0C2001494A6 /* HomeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListViewController.h; sourceTree = "<group>"; };
+		18570784244EE0C2001494A6 /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
+		18570785244EE0C2001494A6 /* SegmentParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentParentViewController.m; sourceTree = "<group>"; };
+		18570797244EE28D001494A6 /* UIView+SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGPagingView.h"; sourceTree = "<group>"; };
+		18570798244EE28D001494A6 /* UIView+SGPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGPagingView.m"; sourceTree = "<group>"; };
+		1857079A244EE28D001494A6 /* SGPageContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentScrollView.m; sourceTree = "<group>"; };
+		1857079B244EE28D001494A6 /* SGPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentView.m; sourceTree = "<group>"; };
+		1857079C244EE28D001494A6 /* SGPageContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentScrollView.h; sourceTree = "<group>"; };
+		1857079D244EE28D001494A6 /* SGPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentView.h; sourceTree = "<group>"; };
+		1857079F244EE28D001494A6 /* SGPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleView.m; sourceTree = "<group>"; };
+		185707A0244EE28D001494A6 /* SGPageTitleViewConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleViewConfigure.m; sourceTree = "<group>"; };
+		185707A1244EE28D001494A6 /* SGPageTitleViewConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleViewConfigure.h; sourceTree = "<group>"; };
+		185707A2244EE28D001494A6 /* SGPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleView.h; sourceTree = "<group>"; };
+		185707A3244EE28D001494A6 /* SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPagingView.h; sourceTree = "<group>"; };
+		185707A9244EE321001494A6 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		185707AA244EE321001494A6 /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185706F3244EE03B001494A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185706ED244EE03B001494A6 = {
+			isa = PBXGroup;
+			children = (
+				185706F8244EE03B001494A6 /* PanentChildViewController */,
+				185706F7244EE03B001494A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185706F7244EE03B001494A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185706F6244EE03B001494A6 /* PanentChildViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185706F8244EE03B001494A6 /* PanentChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18570795244EE28D001494A6 /* SGPagingView */,
+				1857076C244EE0C2001494A6 /* home */,
+				185706F9244EE03B001494A6 /* AppDelegate.h */,
+				185706FA244EE03B001494A6 /* AppDelegate.m */,
+				185706FC244EE03B001494A6 /* SceneDelegate.h */,
+				185706FD244EE03B001494A6 /* SceneDelegate.m */,
+				185706FF244EE03B001494A6 /* ViewController.h */,
+				18570700244EE03B001494A6 /* ViewController.m */,
+				18570702244EE03B001494A6 /* Main.storyboard */,
+				18570705244EE03D001494A6 /* Assets.xcassets */,
+				18570707244EE03D001494A6 /* LaunchScreen.storyboard */,
+				1857070A244EE03D001494A6 /* Info.plist */,
+				1857070B244EE03D001494A6 /* main.m */,
+				185707A9244EE321001494A6 /* Util.h */,
+				185707AA244EE321001494A6 /* Util.m */,
+			);
+			path = PanentChildViewController;
+			sourceTree = "<group>";
+		};
+		1857076C244EE0C2001494A6 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				18570783244EE0C2001494A6 /* HomeListViewController.h */,
+				1857076F244EE0C2001494A6 /* HomeListViewController.m */,
+				1857076E244EE0C2001494A6 /* HomeListViewController.xib */,
+				18570782244EE0C2001494A6 /* HomeViewController.h */,
+				1857076D244EE0C2001494A6 /* HomeViewController.m */,
+				18570770244EE0C2001494A6 /* HomeViewController.xib */,
+				18570771244EE0C2001494A6 /* SegmentParentViewController.h */,
+				18570785244EE0C2001494A6 /* SegmentParentViewController.m */,
+				18570784244EE0C2001494A6 /* SegmentViewController.h */,
+				18570772244EE0C2001494A6 /* SegmentViewController.m */,
+				18570773244EE0C2001494A6 /* view */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		18570773244EE0C2001494A6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18570777244EE0C2001494A6 /* CenterTouchTableView.h */,
+				18570781244EE0C2001494A6 /* CenterTouchTableView.m */,
+				1857077C244EE0C2001494A6 /* homeBannerReusableView.h */,
+				18570774244EE0C2001494A6 /* homeBannerReusableView.m */,
+				1857077E244EE0C2001494A6 /* homeBannerReusableView.xib */,
+				1857077F244EE0C2001494A6 /* HomeListCell.h */,
+				18570775244EE0C2001494A6 /* HomeListCell.m */,
+				1857077A244EE0C2001494A6 /* HomeListCell.xib */,
+				18570776244EE0C2001494A6 /* homeMenueCell.h */,
+				1857077D244EE0C2001494A6 /* homeMenueCell.m */,
+				18570779244EE0C2001494A6 /* homeMenueCell.xib */,
+				18570778244EE0C2001494A6 /* homeReusableView.h */,
+				18570780244EE0C2001494A6 /* homeReusableView.m */,
+				1857077B244EE0C2001494A6 /* homeReusableView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18570795244EE28D001494A6 /* SGPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				18570796244EE28D001494A6 /* Category */,
+				18570799244EE28D001494A6 /* SGPageContent */,
+				1857079E244EE28D001494A6 /* SGPageTitle */,
+				185707A3244EE28D001494A6 /* SGPagingView.h */,
+			);
+			path = SGPagingView;
+			sourceTree = "<group>";
+		};
+		18570796244EE28D001494A6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18570797244EE28D001494A6 /* UIView+SGPagingView.h */,
+				18570798244EE28D001494A6 /* UIView+SGPagingView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18570799244EE28D001494A6 /* SGPageContent */ = {
+			isa = PBXGroup;
+			children = (
+				1857079C244EE28D001494A6 /* SGPageContentScrollView.h */,
+				1857079A244EE28D001494A6 /* SGPageContentScrollView.m */,
+				1857079D244EE28D001494A6 /* SGPageContentView.h */,
+				1857079B244EE28D001494A6 /* SGPageContentView.m */,
+			);
+			path = SGPageContent;
+			sourceTree = "<group>";
+		};
+		1857079E244EE28D001494A6 /* SGPageTitle */ = {
+			isa = PBXGroup;
+			children = (
+				185707A2244EE28D001494A6 /* SGPageTitleView.h */,
+				1857079F244EE28D001494A6 /* SGPageTitleView.m */,
+				185707A1244EE28D001494A6 /* SGPageTitleViewConfigure.h */,
+				185707A0244EE28D001494A6 /* SGPageTitleViewConfigure.m */,
+			);
+			path = SGPageTitle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185706F5244EE03B001494A6 /* PanentChildViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1857070F244EE03D001494A6 /* Build configuration list for PBXNativeTarget "PanentChildViewController" */;
+			buildPhases = (
+				185706F2244EE03B001494A6 /* Sources */,
+				185706F3244EE03B001494A6 /* Frameworks */,
+				185706F4244EE03B001494A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanentChildViewController;
+			productName = PanentChildViewController;
+			productReference = 185706F6244EE03B001494A6 /* PanentChildViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185706EE244EE03B001494A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					185706F5244EE03B001494A6 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 185706F1244EE03B001494A6 /* Build configuration list for PBXProject "PanentChildViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185706ED244EE03B001494A6;
+			productRefGroup = 185706F7244EE03B001494A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185706F5244EE03B001494A6 /* PanentChildViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185706F4244EE03B001494A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18570709244EE03D001494A6 /* LaunchScreen.storyboard in Resources */,
+				18570791244EE0C2001494A6 /* homeBannerReusableView.xib in Resources */,
+				1857078D244EE0C2001494A6 /* homeMenueCell.xib in Resources */,
+				18570706244EE03D001494A6 /* Assets.xcassets in Resources */,
+				18570789244EE0C2001494A6 /* HomeViewController.xib in Resources */,
+				1857078F244EE0C2001494A6 /* homeReusableView.xib in Resources */,
+				18570704244EE03B001494A6 /* Main.storyboard in Resources */,
+				18570787244EE0C2001494A6 /* HomeListViewController.xib in Resources */,
+				1857078E244EE0C2001494A6 /* HomeListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185706F2244EE03B001494A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1857078B244EE0C2001494A6 /* homeBannerReusableView.m in Sources */,
+				18570794244EE0C2001494A6 /* SegmentParentViewController.m in Sources */,
+				185707A5244EE28D001494A6 /* SGPageContentScrollView.m in Sources */,
+				1857078A244EE0C2001494A6 /* SegmentViewController.m in Sources */,
+				185707A7244EE28D001494A6 /* SGPageTitleView.m in Sources */,
+				185707A4244EE28D001494A6 /* UIView+SGPagingView.m in Sources */,
+				18570701244EE03B001494A6 /* ViewController.m in Sources */,
+				185707A8244EE28D001494A6 /* SGPageTitleViewConfigure.m in Sources */,
+				18570788244EE0C2001494A6 /* HomeListViewController.m in Sources */,
+				185706FB244EE03B001494A6 /* AppDelegate.m in Sources */,
+				18570792244EE0C2001494A6 /* homeReusableView.m in Sources */,
+				18570790244EE0C2001494A6 /* homeMenueCell.m in Sources */,
+				1857070C244EE03D001494A6 /* main.m in Sources */,
+				185707A6244EE28D001494A6 /* SGPageContentView.m in Sources */,
+				18570793244EE0C2001494A6 /* CenterTouchTableView.m in Sources */,
+				18570786244EE0C2001494A6 /* HomeViewController.m in Sources */,
+				185706FE244EE03B001494A6 /* SceneDelegate.m in Sources */,
+				185707AB244EE321001494A6 /* Util.m in Sources */,
+				1857078C244EE0C2001494A6 /* HomeListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18570702244EE03B001494A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18570703244EE03B001494A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18570707244EE03D001494A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18570708244EE03D001494A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1857070D244EE03D001494A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1857070E244EE03D001494A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18570710244EE03D001494A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanentChildViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = henry.PanentChildViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18570711244EE03D001494A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanentChildViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = henry.PanentChildViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185706F1244EE03B001494A6 /* Build configuration list for PBXProject "PanentChildViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1857070D244EE03D001494A6 /* Debug */,
+				1857070E244EE03D001494A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1857070F244EE03D001494A6 /* Build configuration list for PBXNativeTarget "PanentChildViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18570710244EE03D001494A6 /* Debug */,
+				18570711244EE03D001494A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185706EE244EE03B001494A6 /* Project object */;
+}
