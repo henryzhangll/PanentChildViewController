@@ -1,2 +1,2 @@
 # PanentChildViewController
-滑动嵌套
+多Scrollview 嵌套滑动事件解决
